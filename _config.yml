@@ -82,4 +82,4 @@ deploy:
   repo: root@ashrimp.fun:/data/GitLibrary/hexo
   branch: master
 
-/data/www/hexo
+#/data/www/hexo
