@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>knight</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://leidar.ren/"/>
+  <updated>2018-05-04T05:13:39.520Z</updated>
+  <id>http://leidar.ren/</id>
+  
+  <author>
+    <name>Radar Ren</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://leidar.ren/2018/05/03/hello-world/"/>
+    <id>http://leidar.ren/2018/05/03/hello-world/</id>
+    <published>2018-05-04T05:13:39.520Z</published>
+    <updated>2018-05-04T05:13:39.520Z</updated>
+    
+    <content type="html"><![CDATA[<p>你好！欢迎来到我的博客！</p><p>这个同学很忙，现在在慢慢改造框架了！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;你好！欢迎来到我的博客！&lt;/p&gt;
+&lt;p&gt;这个同学很忙，现在在慢慢改造框架了！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
