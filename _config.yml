@@ -4,7 +4,7 @@
 
 # Site
 title: knight
-subtitle: Blog & Notes
+subtitle: 
 description: learn & share
 keywords: life & tech
 author: Radar Ren
@@ -75,6 +75,8 @@ pagination_dir: page
 #RSS订阅
 plugin:
 - hexo-generator-feed
+- hexo-renderer-mathjax
+
 #Feed Atom
 feed:
 type: atom
