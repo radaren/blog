@@ -1,5 +1,7 @@
 ---
 title: 笔记本
+categories: 'test'
+tags: 'blog'
 ---
 
 ## 介绍
@@ -82,7 +84,7 @@ var app = new Vue({
 </html>
 ```
 
-## mathjax
+## 公式测试
 
 $H^2el^2o$
 
