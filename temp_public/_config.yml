@@ -1,0 +1,140 @@
+# -------------------------------------------------------
+# Custom Pictures
+# -------------------------------------------------------
+
+avatar:
+  enable: true
+  url: /static/images/radar.jpg
+
+background:
+  background_color: '#ffffff'
+
+  # Custom Background Picture
+  enable_picture: true
+  url: /static/images/bg.jpg
+  css_size: cover
+  css_position: 50%
+
+  # Gradient color
+  gradient_color:
+    enable: false # switch to 'true' will make custom background picture lose efficacy
+    css_value: 'linear-gradient(to right, rgb(74, 135, 193), rgb(179, 177, 251))'
+
+
+# -------------------------------------------------------
+# Menu
+# -------------------------------------------------------
+
+menu:
+  # Basic Menu
+  Home: true
+  Archives: true
+  Categories: true
+  Tags: true
+  About: /pages/me/index
+
+menu_icons:
+  enable: true
+  # icon name docs: http://fontawesome.io/icons/
+  Home: fa-home
+  Archives: fa-archive
+  Categories: fa-bookmark
+  Tags: fa-hashtag
+  About: fa-smile-o
+
+# -------------------------------------------------------
+# Custom Blur
+# -------------------------------------------------------
+blur:
+  background_color: '#ffffff'
+
+  hide_overflow: true
+
+  # Alpha Value of the background color
+  opacity:
+    enable: false # switch to 'true' will make the gaussian blur lose efficacy
+    opacity_value: 0.4
+
+  gaussian_radius:
+    top_navigator: 50 # 40px+ preferred
+    header: 30 # 5 ~ 50px preferred
+    footer: 40 # 5 ~ 100px preferred
+
+  font:
+    color: '#ffffff' # only affect the font color in the blur area.
+
+# -------------------------------------------------------
+# Layout
+# -------------------------------------------------------
+theme_layout:
+  dependent_footer: true
+
+# -------------------------------------------------------
+# Social
+# -------------------------------------------------------
+
+social:
+  github: https://github.com/radaren
+  email: mailto:renld@mail2.sysu.edu.cn?subject=博客交流
+  wechat: /#/pages/social-QRcode/
+  friend: /#/pages/friend-link/
+  rss: "/atom.xml"
+  zhihu: https://www.zhihu.com/people/renld/activities
+  
+social_icons:
+  enable: true
+  # icon name docs: http://fontawesome.io/icons/
+  zhihu: fa-question
+  github: fa-github-alt
+  email: fa-envelope
+  wechat: fa-weixin
+  friend: fa-link
+  rss: fa-rss
+  
+# -------------------------------------------------------
+# Page 404
+# -------------------------------------------------------
+page_404:
+  # enable to use custom 404 page
+  enable: true
+  # filename of .md file path in your source dir
+  # example:
+  # after run command `hexo new page 404`
+  # [X]  source_path: /404/index            (work dictionry is 'source')
+  # [O]  source_path: 404/index.md
+  # [O]  source_path: 404/index
+  # [O]  source_path: 404                   ('/index' can be omitted)
+  source_path: 404/index.md
+
+# -------------------------------------------------------
+# Comments System
+# -------------------------------------------------------
+
+# https://github.com/imsun/gitment#customize
+gitment:
+  enable: true
+  github_id: radaren
+  repository_name: blog
+
+  # client_id & secret will generated after register an OAuth App
+  # reference: https://github.com/settings/applications/new
+  client_id: 01850c4a963fdc3af604
+  client_secret: 32ebfb3b7391bcdc5a57657dd5f23cc63b0b6d91
+  per_page: 7 # comments per page
+  max_comment_height: 250 # default 250px
+
+# -------------------------------------------------------
+# Google Analytics
+# -------------------------------------------------------
+
+google_analytics:
+  enable: false
+  track_id: UA-XXXXXX-X # replace to your track_id. It starts with 'UA-'.
+
+
+# -------------------------------------------------------
+# Powered by
+# -------------------------------------------------------
+powered_by: 
+  text:  '备案号: 粤ICP备17150133号'
+  url:  http://www.miitbeian.gov.cn # or false to disable link
